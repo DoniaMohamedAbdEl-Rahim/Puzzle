@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 119413290}
   - component: {fileID: 119413289}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: img
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105.6, y: -73.4}
+  m_AnchoredPosition: {x: 105.6, y: -107}
   m_SizeDelta: {x: 73.5045, y: 86.3508}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119413289
@@ -767,12 +767,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5ae26f2a43d3d84e804852d17d1db1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctPuzzle:
+  puzzle:
   - obj: {fileID: 1042376711}
     initialPos: {x: 0, y: 0}
     TargetPos: {x: 0, y: 0}
-  puzzle:
+  - obj: {fileID: 119413287}
+    initialPos: {x: 0, y: 0}
+    TargetPos: {x: 0, y: 0}
+  correctPuzzle:
   - obj: {fileID: 218764781}
+    initialPos: {x: 0, y: 0}
+    TargetPos: {x: 0, y: 0}
+  - obj: {fileID: 1763569196}
     initialPos: {x: 0, y: 0}
     TargetPos: {x: 0, y: 0}
 --- !u!4 &1718983415
@@ -824,7 +830,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123.2, y: -73.4}
+  m_AnchoredPosition: {x: -123.2, y: -102}
   m_SizeDelta: {x: 73.5045, y: 86.3508}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1763569198
